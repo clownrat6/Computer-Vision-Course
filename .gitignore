@@ -1,0 +1,8 @@
+# raw dataset & processed dataset
+data/
+
+# python runtime
+__pycache__
+
+# trivial script
+try.py
