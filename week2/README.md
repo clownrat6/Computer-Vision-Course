@@ -1,5 +1,7 @@
 # Face Detection Project
 
+![](pac_w-face.jpg)
+
 ## Usage
 
 ```bash
