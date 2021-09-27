@@ -28,7 +28,7 @@ def draw_bboxes(image, bboxes, text='cyanlaser'):
         x, y, w, h = bbox
         image = cv2.rectangle(image, (x, y), (x + w, y + h), (2, 255, 255), 2)
         image = cv2.putText(image, text, (x + 20, y + 20),
-                            cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 2, 255), 1)
+                            cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 255, 2), 2)
 
     return image
 
