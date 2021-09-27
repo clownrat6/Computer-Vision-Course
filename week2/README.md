@@ -1,6 +1,6 @@
 # Face Detection Project
 
-![](pac_w-face.jpg)
+![](pac_with_face.jpg)
 
 ## Usage
 
