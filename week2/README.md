@@ -3,5 +3,10 @@
 ## Usage
 
 ```bash
-python face.py [image_path] [-s | --show (Whether to show image in runtime)] [-p | --show-path (The save path of image with face detection)]
+# show image with face detection in runtime
+python face.py [image_path] --show
+# save image with face detection
+python face.py [image_path] --show-path IMAGE_SAVE_PATH
+# demo
+python face.py pac.jpg --show
 ```
