@@ -1,8 +1,8 @@
 import argparse
 
 import cv2
-import numpy as np
 import matplotlib.pyplot as plt
+import numpy as np
 from PIL import Image
 
 
@@ -22,11 +22,13 @@ class FaceDetector(object):
         return self.forward(image)
 
 
-def draw_bboxes(image, bboxes):
+def draw_bboxes(image, bboxes, text='cyanlaser'):
     """draw bboxes into image."""
     for bbox in bboxes:
         x, y, w, h = bbox
-        image = cv2.rectangle(image, (x, y), (x + w, y + h), (255, 2, 255), 2)
+        image = cv2.rectangle(image, (x, y), (x + w, y + h), (2, 255, 255), 2)
+        image = cv2.putText(image, text, (x + 20, y + 20),
+                            cv2.FONT_HERSHEY_SIMPLEX, 0.7, (255, 2, 255), 1)
 
     return image
 
@@ -52,7 +54,7 @@ def imshow(image, backend='pillow'):
 
 
 def imwrite(image, save_path, backend='pillow'):
-    """backend agnostic image write
+    """backend agnostic image write.
 
     Args:
         image (numpy.ndarry): The image needs to save.
