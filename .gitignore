@@ -6,3 +6,6 @@ __pycache__
 
 # trivial script
 try.py
+
+# jupyter notebook
+.ipynb_checkpoints
