@@ -100,7 +100,7 @@ def main():
     image = cv2.imread(image_path)
     image = cv2.cvtColor(image, cv2.COLOR_BGR2RGB)
     gray_image = cv2.cvtColor(image, cv2.COLOR_RGB2GRAY)
-    detector = FaceDetector('week2/haarcascade_frontalface_default.xml')
+    detector = FaceDetector('haarcascade_frontalface_default.xml')
 
     bboxes = detector(gray_image)
     image = draw_bboxes(image, bboxes)
