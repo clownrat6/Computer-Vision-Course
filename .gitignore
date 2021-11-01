@@ -9,3 +9,6 @@ try.py
 
 # jupyter notebook
 .ipynb_checkpoints
+
+# mnist dataset
+mnist/
