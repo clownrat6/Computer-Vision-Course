@@ -8,3 +8,4 @@
 | Week 4 | matrix derivation | [doc](https://phrarh32db.feishu.cn/docs/doccnGAjtIeD3P2duj422cHR7xb) &#124; [project](week4/) |
 | Week 5 | fully connected network | [doc](https://phrarh32db.feishu.cn/docs/doccnGyrVCjhkOQKkOaRN9wosIf) &#124; [project](week5/) |
 | Week 6 | mnist recognition task | [doc](https://phrarh32db.feishu.cn/docs/doccns9zhvhUs0QSq9IRDbdpzvc) &#124; [project](week6/) |
+| Week 7 | super-resolution model attempt | [doc](https://phrarh32db.feishu.cn/docs/doccns9zhvhUs0QSq9IRDbdpzvc) &#124; [project](week7/) |

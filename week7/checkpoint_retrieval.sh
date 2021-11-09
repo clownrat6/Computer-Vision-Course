@@ -1,2 +1,0 @@
-wget https://download.openmmlab.com/mmediting/restorers/esrgan/esrgan_x4c64b23g32_1x16_400k_div2k_20200508-f8ccaf3b.pth
-mv esrgan_x4c64b23g32_1x16_400k_div2k_20200508-f8ccaf3b.pth esrgan.pth

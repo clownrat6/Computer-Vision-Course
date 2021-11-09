@@ -12,3 +12,12 @@ try.py
 
 # mnist dataset
 mnist/
+
+# normal image file
+*.png
+
+# compressed files
+*.zip
+
+# checkpoint files
+*.pth
