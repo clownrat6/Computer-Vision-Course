@@ -9,3 +9,4 @@
 | Week 5 | fully connected network | [doc](https://phrarh32db.feishu.cn/docs/doccnGyrVCjhkOQKkOaRN9wosIf) &#124; [project](week5/) |
 | Week 6 | mnist recognition task | [doc](https://phrarh32db.feishu.cn/docs/doccns9zhvhUs0QSq9IRDbdpzvc) &#124; [project](week6/) |
 | Week 7 | super-resolution model attempt | [doc](https://phrarh32db.feishu.cn/docs/doccns9zhvhUs0QSq9IRDbdpzvc) &#124; [project](week7/) |
+| Week 8 | gan | [doc](https://phrarh32db.feishu.cn/docs/doccn2VAXGDncblf2WwyCXR4H3d) &#124; [project](week8/) |
